@@ -1,0 +1,22 @@
+{
+  "name": "dz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "lines": 70
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
